@@ -1,0 +1,9 @@
+<!--<p>{{response.author}}</p>
+<p>{{response.category}}</p>
+<p>{{response.quote}}</p>-->
+
+<ul *ngFor="let res of response">
+    <li>Author: {{res.author}}</li>
+    <li>Category: {{res.category}}</li>
+    <li>Quote: {{res.quote}}</li>
+</ul>
