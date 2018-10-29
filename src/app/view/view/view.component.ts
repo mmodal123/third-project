@@ -19,7 +19,6 @@ ngOnInit() {
 getQuotes() {
   this.svc.search().subscribe( value => {
     this.response = value;
-    console.log(this.response);
   } );
 }
 
